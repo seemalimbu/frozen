@@ -1,7 +1,12 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: white;
@@ -9,10 +14,192 @@ body{
 
 .header{
     background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
 }
 
 .header p,
-.header i{
+.header a{
     color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.mail::before{
+    content: '\f0e0';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+
+.content-section1{
+    background-color: white;
+}
+
+
+.content-section1 i{
+    color:skyblue;
+    font-size: 90px;
+}
+
+
+.universal h2,
+.universal h3,
+.universal h5{
+    font-size: 90px;
     display: inline;
+    margin-left: 40px;
+}
+
+p.text-top{
+    font-size: 60px;
+    padding-top:50px ;
+    font-weight: bold;
+}
+
+p.text-bottom{
+    margin-left: 40px;
+    font-size: 25px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+p.text-bottom{
+     margin-left: 0px;
+}
+
+
+.content-section2{
+    background-color: skyblue;
+}
+
+.content-section1 h2::before{
+    content: '\f52d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.content-section2 i{
+font-size: 90px;
+color: white;
+}
+
+.content-section2 h2::before{
+    content: '\f1eb';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+
+.content-section3 i{
+color: black;
+}
+
+.content-section3 h3::before{
+    content: '\f5fc';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.universal i{
+    font-size: 90px;
+}
+
+
+.content-section4{
+   background: url(images.jfif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.content-section4 h4::before{
+    content: '\f3cd';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+.universal h4{
+ color: white;
+  font-size: 90px;
+    display: inline;
+    margin-left: 40px;
+}
+
+
+.content-section4 i{
+color: white;
+}
+
+.content-section4 p{
+color: white;
+}
+
+.content-section5{
+    background-color: gray;
+    color: white;
+}
+
+
+.universal h5{
+display: inline-block;
+}
+
+.content-section5 iframe{
+    display: inline;
+    justify-content: space-between;
+}
+
+.content-section5 iframe:nth-child(2){
+    padding-left: 40px;
+}
+
+
+.footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footer h6,
+.footer i{
+    display: inline;
+    padding-left: 15px;
+}
+
+.back-to-top a i{
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.back-to-top{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+.content-section5 h5::before{
+    content: '\f431';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+}
+
+
+.universal::after{
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-color: black;
+    z-index:10;
+  position: absolute;
+  left: 0;
+  bottom:0;
 }
