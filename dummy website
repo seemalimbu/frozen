@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Hi, I'm John Doe</h1>
+    <p>Full Stack Developer | UI Designer | Freelancer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile" class="profile-img"/>
+    <p>I’m a passionate developer from Nepal who builds clean, fast, and user-friendly websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>UI/UX</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Site</h3>
+        <p>A personal portfolio built using Flexbox only.</p>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>A responsive page with call-to-action.</p>
+      </div>
+      <div class="card">
+        <h3>Todo App</h3>
+        <p>Simple task manager using JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
